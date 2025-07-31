@@ -27,7 +27,6 @@ function adicionarAmigo() {
   if (amigoValidated) {
     amigosArr.push(amigoValidated.value);
     listarAmigos();
-    console.log(amigosArr);
   }
 
   return;
@@ -47,5 +46,3 @@ function sortearAmigo() {
   sorteado.innerHTML = `O sorteado foi: ${amigosArr[randomIndex]}`;
   resultadoSorteio.appendChild(sorteado);
 }
-
-console.log(amigosArr);
